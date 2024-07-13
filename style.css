@@ -94,12 +94,16 @@ section {
 
 }
 .home-img img{
-    width: 35vw;
+    width: 30vw;
+    height: 34vw;
+    border-radius:70%;
 
     
 }
 .about-img img{
-    width: 35vw;
+     width: 30vw;
+    height: 34vw;
+    border-radius:70%;
 }
 
 .heading{
