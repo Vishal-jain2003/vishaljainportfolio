@@ -144,9 +144,13 @@
     </section>
 
     <!-- contact section design -->
+
+    <!-- https://formspree.io/f/xvgpezdw -->
+
+
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
-      <form action="#">
+      <!-- <form action="#">
         <div class="input-box">
           <input type="text" placeholder="Full Name">
           <input type="email" placeholder="Email Address">
@@ -157,8 +161,23 @@
         </div>
         <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
         <input type="submit" value="Send Message" class="btn">
-      </form>
+      </form> -->
+      <form action="https://formspree.io/f/xvgpezdw" method="POST">
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+            <input type="number" name="phone" placeholder="Mobile Number" required>
+            <input type="text" name="subject" placeholder="Email Subject" required>
+        </div>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+    
     </section>
+
+
 
     <!-- footer design -->
     <footer class="footer">
